@@ -1,0 +1,90 @@
+body {
+  font-family: "Verdana", Arial, sans-serif;
+  margin: 0;
+
+}
+
+.hero, .footer {
+  background-color: #1F2937;
+}
+
+.hero {
+  display: flex;
+  flex-flow: column;
+  padding: 8px 128px;
+  flex-shrink: 1;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero img {
+  width: 600px;
+  min-width: 0px;
+  
+  
+}
+
+.header {
+  color: #f9faf8;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 36px;
+}
+
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color:#f9faf8;
+}
+
+.hero p, a {
+  font-size: 18px;
+  color: #E5F7EB;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  padding: 4px;
+}
+
+.sign-up button {
+  border-color: white;
+  border: 1.5px solid;}
+  
+
+.quote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1F2937;
+}
+
+.action {
+  display: flex;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  color: white;}
+
+.footer {
+  text-align: center;
+  color: #E5F7EB;
+  padding: 24px;
+}
