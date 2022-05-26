@@ -12,27 +12,31 @@ body {
   display: flex;
   flex-flow: column;
   padding: 8px 128px;
-  flex-shrink: 1;
 }
 
 .title {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
+  align-items: center;
+  
 }
 
-.hero img {
+.title img {
   width: 600px;
-  min-width: 0px;
-  
-  
+  max-width: 100%;
 }
+
+.image {
+  width: 600px;
+  flex-shrink: 1;
+  min-width: 0;
+  }
 
 .header {
   color: #f9faf8;
   font-size: 24px;
   display: flex;
   justify-content: space-between;
-  padding: 8px;
   margin-bottom: 36px;
 }
 
@@ -88,3 +92,29 @@ button {
   color: #E5F7EB;
   padding: 24px;
 }
+
+.info {
+  display: flex;
+  flex-flow: column;
+  padding: 8px 128px;
+}
+
+.info-title {
+align-self: center;}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border:#1F2937 solid;
+  border-radius: 20px;
+}
+
+.card {
+  text-align: center;}
